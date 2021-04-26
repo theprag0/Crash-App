@@ -9,7 +9,7 @@ let trollImg = window.location.href.split('troll-img=')[1];
 setTimeout(function(){
     loader.style.display = 'none';
     crash.innerHTML = (trollImg && trollText) === undefined ? 
-    '<p>You are ugly.</p> <img src="./public/assets/Trollface.svg" class="meme"/>'
+    '<p>You are fat.</p> <img src="./public/assets/Trollface.svg" class="meme"/>'
     : `<p>${atob(trollText)}</p> <img src="${atob(trollImg)}" class="meme"/>`
 },3000);
 
