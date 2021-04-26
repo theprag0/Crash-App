@@ -1,0 +1,161 @@
+/* Landing Page */
+.landing-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 200px; 
+  margin: -100px 0 0 -200px;
+  text-align: center;
+}
+
+body{
+    background-color: #1a1a1d;
+}
+
+.landing-content h1{
+    font-family: 'Freckle Face', cursive;
+    color: #c3073f;
+    margin-bottom: 30px;
+}
+
+.landing-content span{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: 'Bangers', cursive;
+}
+
+.landing-content a{
+    text-decoration: none;
+    font-family: 'Bangers', cursive;
+    font-size: 1.5em;
+    color: #fff;
+    border: 1px solid #950740;
+    border-radius: 20px;
+    padding: 20px;
+    transition: 0.5s;
+}
+.landing-content a:hover{
+    transition: 0.5s;
+    background-color: #c3073f;
+}
+
+/* Crash Page */
+.crash-content{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 400px;
+  height: 200px; 
+  margin: -200px 0 0 -200px;
+}
+
+#loader,
+#crash{
+    text-align: center;
+}
+
+#loader h1,
+#loader p,
+#crash{
+    color: #fff;
+    font-family: 'Bangers', cursive;
+}
+
+#crash p{
+    font-size: 3.5em;
+}
+
+#loader p{
+    letter-spacing: 2px;
+}
+
+#loader h1 span{
+    font-family: 'Freckle Face', cursive;
+    color: #c3073f;
+    text-transform: uppercase;
+}
+
+.meme{
+    margin-top: 10px;
+    height: 15em;
+    width: 15em;
+    color: #fff;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+/* Create form */
+#create-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    padding: 3em;
+    background-color: #c3073f;
+    color: #fff;
+    font-family: 'Bangers', cursive;
+}
+
+#create-form form label,
+#create-form form input{
+    display: block;
+    width: 60%;
+    letter-spacing: 2px;
+}
+
+#create-form form input{
+    margin-bottom: 10px;
+}
+
+#create-form form input,
+#gen-url{
+    border-radius: 5px;
+    border: none;
+    padding: 7px;
+}
+
+#create-form form button{
+    font-family: 'Bangers', cursive;
+    color: #000;
+    font-size: 1.1em;
+    border: 1px solid #950740;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 0.5s;
+}
+
+#create-form form button:hover{
+    transition: 0.5s;
+    background-color: #8860d0;
+    color: #fff;
+}
+
+#gen-link{
+    margin-top: 2em;
+}
+#gen-url{
+    background-color: #fff;
+    color: #000;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+}
+
+#copy{
+    border: 1px solid #950740;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.foot-credits{
+    font-family: 'Kaushan Script', cursive;
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+    color: #fff;
+}
+
+.foot-credits a{
+    color: #fff;
+}
