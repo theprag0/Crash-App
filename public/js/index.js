@@ -10,7 +10,7 @@ if (urlParams.has('troll-text') && urlParams.has('troll-img')) {
 let trollText = urlParams.get('troll-text');
 let trollImg = urlParams.get('troll-img');
 
-let crashUrl = (trollImg && trollText) !== undefined ?
+let crashUrl = (trollImg && trollText) !== null ?
 `javascript:window.open("${window.location.href.replace('index.html','crash.html')}")`
 : "javascript:window.open('./crash.html')";
 

@@ -25,6 +25,8 @@ if (urlParams.has('troll-text') && urlParams.has('troll-img')) {
 
 // Copy link function
 document.querySelector("#copy").onclick = function(){
-    document.querySelector("#gen-url").select();
+    let copyText = document.querySelector("#gen-url");
+    copyText.select();
+    copyText.setSelectionRange(0, 99999);
     document.execCommand('copy');
 }
