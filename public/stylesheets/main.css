@@ -117,6 +117,7 @@ body{
 }
 
 #create-form form button{
+    display: block;
     font-family: 'Bangers', cursive;
     color: #000;
     font-size: 1.1em;
@@ -146,6 +147,13 @@ body{
     border: 1px solid #950740;
     border-radius: 5px;
     padding: 5px;
+}
+
+.note{
+    font-size: 0.7em;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    font-family: 'Roboto', sans-serif;
 }
 
 .foot-credits{

@@ -20,10 +20,13 @@
         <hr style="background-color: #fff;">
         <form action="" id="create">
             <label for="troll-text">Troll'em</label>
-            <input type="text" id="troll-text" name="troll-text" placeholder="Enter Text Here">
+            <input type="text" id="troll-text" name="troll-text" placeholder="Enter Text Here" required>
             <label for="troll-img">Emoji/Meme goes here</label>
             <input type="text" id="troll-img" name="troll-img" placeholder="Enter Image Link">
-            <button type="submit">Create!</button>
+            <label for="troll-time">Enter A Duration</label>
+            <input type="number" value="3.5" step="0.1" min="3.5" max="4.5" id="troll-time" name="troll-time" required>
+            <em class="note">* Enter a duration between 3.5 sec to 4.5 sec</em>
+            <button type="submit" style="margin-top: 10px;">Create!</button>
         </form>
         <div id="gen-link" style="display: none;">
             <textarea name="generated-url" id="gen-url" cols="30" rows="5" readonly></textarea>
