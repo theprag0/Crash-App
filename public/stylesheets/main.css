@@ -98,6 +98,27 @@ body{
     font-family: 'Bangers', cursive;
 }
 
+@media(max-width: 1024px) {
+    #create-form{
+        width: 50%;
+    }
+}
+
+@media(max-width: 425px) {
+    #create-form{
+        width: 50%;
+        font-size: 0.7rem;
+    }
+
+    #create-form h1{
+        font-size: 1.7em;
+    }
+
+    #create-form form input{
+        font-size: 0.7em;
+    }
+}
+
 #create-form form label,
 #create-form form input{
     display: block;
